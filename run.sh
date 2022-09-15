@@ -1,5 +1,7 @@
 cd /app
-if [ -f reqirements.txt ]; then
+ls
+if [ -f requirements.txt ]; then
   pip install -r reqirements.txt
+  echo "hi
 fi
 $COMMAND
