@@ -7,4 +7,5 @@ if [ -f requirements.txt ]; then
 fi
 echo $COMMAND
 cat /run.sh
+COMMAND="flask run -h 0.0.0.0 -p 5000"
 eval $COMMAND
