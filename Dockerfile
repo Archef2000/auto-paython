@@ -1,4 +1,4 @@
 FROM python:bullseye
-ADD run.sh
+ADD run.sh ./
 RUN chmod +x run.sh
 ENTRYPOINT run.sh
