@@ -1,3 +1,4 @@
+pip install -r /app/reqirements.txt
 cd /app
 ls
 if [ -f requirements.txt ]; then
