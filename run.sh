@@ -4,4 +4,4 @@ if [ -f requirements.txt ]; then
   pip install -r reqirements.txt
   echo "hi
 fi
-$COMMAND
+eval "$COMMAND"
