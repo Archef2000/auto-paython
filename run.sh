@@ -7,4 +7,4 @@ if [ -f requirements.txt ]; then
 fi
 echo $COMMAND
 cat /run.sh
-eval "$COMMAND"
+eval $COMMAND
