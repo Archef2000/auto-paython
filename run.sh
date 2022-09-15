@@ -1,6 +1,8 @@
 cd /app
 if [ -f requirements.txt ]; then
   pip install -r requirements.txt
+elif [ -f requirements.txt ] && [[ "$SUDO" == true ]]
+  pip install -r requirements.txt
 else
   :
 fi
