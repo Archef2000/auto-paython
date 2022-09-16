@@ -8,7 +8,7 @@ else
   :
 fi
 COMMAND="flask run -h 0.0.0.0 -p 5000"
-if [[ "$SUDO" == true ]]
+if [ "$SUDO" == true ]
 then
   eval $COMMAND
 fi
