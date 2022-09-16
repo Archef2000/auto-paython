@@ -1,4 +1,4 @@
-name: Docker Python
+name: Docker Python Alpine
 
 on:
   schedule:
