@@ -7,4 +7,6 @@ if [ -f requirements.txt ]; then
   echo "::: Finished installing python modules"
 fi
 echo "::: Executing command"
-eval $COMMAND
+COMMAND=${COMMAND//\"/}
+eval ${COMMAND//\"/}
+
