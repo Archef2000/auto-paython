@@ -11,4 +11,6 @@ COMMAND="flask run -h 0.0.0.0 -p 5000"
 if [ "$SUDO" = true ]
 then
   eval $COMMAND
+else
+  sudo -u user eval $COMMAND
 fi
