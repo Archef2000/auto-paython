@@ -2,6 +2,7 @@ cd /app
 if [ -f requirements.txt ]; then
   sudo -u user pip install -r requirements.txt > /dev/null 
 elif [ -f requirements.txt ] && [[ "$SUDO" == true ]]
+then
   pip install -r requirements.txt > /dev/null
 else
   :
