@@ -8,4 +8,4 @@ else
 fi
 COMMAND="flask run -h 0.0.0.0 -p 5000"
 
-$COMMAND
+eval $COMMAND
