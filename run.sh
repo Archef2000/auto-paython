@@ -8,5 +8,5 @@ if [ -f requirements.txt ]; then
 fi
 echo "::: Executing command"
 #COMMAND=${COMMAND//\"/}
-eval $COMMAND
-
+$COMMAND
+#eval $COMMAND
