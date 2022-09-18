@@ -7,8 +7,9 @@ if [ -f requirements.txt ]; then
   echo "::: Finished installing python modules"
 fi
 echo "::: Executing command"
-commandline=(${COMMAND})
-"${commandline[@]}"
+eval $COMMAND
+#commandline=(${COMMAND})
+#"${commandline[@]}"
 #COMMAND=${COMMAND//\"/}
 #$COMMAND
 #eval $COMMAND
