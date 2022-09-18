@@ -1,4 +1,4 @@
-echo ":: Container started"
+echo "::: Container started"
 cd /app
 if [ -f requirements.txt ]; then
   echo "::: Installing python modules"
@@ -8,8 +8,3 @@ if [ -f requirements.txt ]; then
 fi
 echo "::: Executing command"
 $COMMAND
-#commandline=(${COMMAND})
-#"${commandline[@]}"
-#COMMAND=${COMMAND//\"/}
-#$COMMAND
-#eval $COMMAND
